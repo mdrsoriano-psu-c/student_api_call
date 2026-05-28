@@ -1,3 +1,34 @@
+ MICA DANIELLE RODRIGUEZ SORIANO
+ API CALL PROJECT
+ THIS IS MY SIMPLE API CALL USING (get,post,put,patch, and delete)
+ First, I created my Laravel API project and configured the SQLite database by editing the `.env` file and creating the `database.sqlite` file inside the database folder. After that, I ran the migrations using `php artisan migrate` to create the tables needed for the project. I then created the Student model, controller, and API routes so the project could handle CRUD operations such as adding, viewing, updating, patching, and deleting student records. I tested all the API endpoints using Postman to make sure the requests were working correctly and returning proper JSON responses.
+While developing the project, I encountered several errors such as “route not found,” “no such table,” “unable to open database file,” and GitHub permission issues. I fixed these problems by correcting the API routes in `routes/api.php`, properly configuring the SQLite database path, clearing Laravel cache files, and running migrations again. For GitHub, I removed the incorrect Git account configuration and reconfigured Git using my own username and email so the commits would appear under my account instead of another user.
+Finally, I uploaded the project to GitHub by initializing Git, adding all project files, committing the changes, connecting the local project to a GitHub repository, and pushing the code using Git commands. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
